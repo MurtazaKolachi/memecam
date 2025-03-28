@@ -19,6 +19,8 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/xiaomi/miuicamera-toco',
+    'vendor/xiaomi/sm6150-common',
+    'vendor/xiaomi/toco',
 ]
 
 
