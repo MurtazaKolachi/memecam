@@ -31,8 +31,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libgui_shim_miuicamera.so'),
     'system/lib64/libcamera_mianode_jni.xiaomi.so': blob_fixup()
         .add_needed('libgui_shim_miuicamera.so'),
-    'system/priv-app/MiuiCamera/MiuiCamera.apk': blob_fixup()
-        .apktool_patch('patches'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(

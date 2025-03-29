@@ -2,4 +2,4 @@
 
 system/lib64/libcamera_algoup_jni.xiaomi.so
 system/lib64/libcamera_mianode_jni.xiaomi.so
-system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Flash
+system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture,Flash|03d23bb183c9b949aa601623afd19a60c227edc6
