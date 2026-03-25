@@ -19,8 +19,7 @@ from extract_utils.main import (
 
 namespace_imports = [
     'device/xiaomi/camera',
-    'vendor/xiaomi/sm8250-common',
-    'vendor/xiaomi/apollon',
+    'vendor/xiaomi/apollo',
 ]
 
 
