@@ -18,9 +18,8 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/xiaomi/miuicamera-apollon',
-    'vendor/xiaomi/sm8250-common',
-    'vendor/xiaomi/apollon',
+    'device/xiaomi/camera',
+    'vendor/xiaomi/apollo',
 ]
 
 
@@ -34,7 +33,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'miuicamera-apollon',
+    'camera',
     'xiaomi',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,

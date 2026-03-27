@@ -4,7 +4,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Malloc
-MALLOC_SVELTE := true
-
--include vendor/xiaomi/camera/BoardConfigVendor.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/device.mk
